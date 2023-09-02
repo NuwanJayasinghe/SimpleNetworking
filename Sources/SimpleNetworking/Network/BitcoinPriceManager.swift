@@ -12,7 +12,7 @@ public class BitcoinPriceManager {
     
     private init() {}
     
-    static func sharedManager() -> BitcoinPriceManager {
+    public static func sharedManager() -> BitcoinPriceManager {
         return shared
     }
     
