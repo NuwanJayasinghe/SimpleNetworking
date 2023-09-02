@@ -18,7 +18,7 @@ public class BitcoinPriceManager {
     
     private var lastKnownPrice: Double?
     
-    func getBitcoinPrice(completion: @escaping (Result<Double, Error>) -> Void) {
+    public func getBitcoinPrice(completion: @escaping (Result<Double, Error>) -> Void) {
         let isOnline = Reachability.isConnectedToNetwork()
         
         if isOnline {
