@@ -7,7 +7,7 @@
 
 import Foundation
 
-class BitcoinPriceManager {
+public class BitcoinPriceManager {
     private static let shared = BitcoinPriceManager()
     
     private init() {}
